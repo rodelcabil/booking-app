@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--primary: #003580;
+	--font-color-white: #ffffff; 
+	--font-color-gray: gray; 
+	--font-color-black: black;
+	--btn-primary: #0071c2;
+	--yellow-border: #febb02;
+
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background-color: var(--bg-1);
+	font-size: 16px;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+}
