@@ -1,5 +1,5 @@
 import express from "express";
-import { deleteUser, getUser, updateUser, getAllUser } from "../controllers/UserController.js";
+import { deleteUser, getUser, updateUser, getAllUser } from "../controllers/userController.js";
 import { verifyAdmin, verifyToken, verifyUser } from "../utils/verifyToken.js";
 
 
